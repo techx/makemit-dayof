@@ -6,6 +6,12 @@ textarea {
   font-family: 'Lato', 'Helvetica Neue', 'Helvetica', sans-serif;
 }
 
+body {
+  background-color: #728088 !important;
+  margin:0;
+  color: #242323;
+}
+
 a {
   text-decoration: none !important;
 }
@@ -23,6 +29,16 @@ a {
   font-family: 'Lato', 'Helvetica Neue Light', 'Helvetica', sans-serif !important;
 }
 
+.nav {
+  background-color: white;
+  width: 100%;
+}
+
+.main {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
 .ui.message ul.list li:before {
   content: "" !important;
 }
@@ -32,13 +48,13 @@ a {
 }
 
 .hacksquare {
-  outline: 2px solid black;
-  outline-offset: 2px;
   float: left;
   display: inline-block !important;
-  margin-right: .5em !important ;
-  height: 1em;
-  width: 1em;
+  width: 7em;
+}
+
+.inline {
+  display: inline-block;
 }
 
 #home iframe
@@ -53,16 +69,19 @@ a {
 }
 
 #banner {
-  background: url(../img/background.jpg);
+  background-color: #ffca43;
   margin-top: 12px;
   margin-bottom: 36px;
+  margin-right: 12px;
+  margin-left: 12px;
 }
 
 #banner .content{
   text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3em;
     color: white;
-    font-weight: 300;
+    font-weight: 400;
   text-align: center;
   padding: 1em 0;
 }
