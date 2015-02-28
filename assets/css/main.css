@@ -72,6 +72,7 @@ a {
 #banner {
   background: url(../img/tools.png) no-repeat center center;
   background-size: cover;
+  background-position: right top -320px ; 
   z-index: -1;
   /*background-color: #ffca43;*/
   padding-bottom: 48px;
