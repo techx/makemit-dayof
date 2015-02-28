@@ -16,6 +16,11 @@ a {
   text-decoration: none !important;
 }
 
+.no-padding {
+  padding: 0;
+  margin: 0;
+}
+
 .montserrat,
 .montserrat.bold {
   font-family: 'Montserrat', sans-serif;
@@ -43,10 +48,6 @@ a {
   content: "" !important;
 }
 
-.ui.menu .logo.item {
-  float: left;
-}
-
 .hacksquare {
   float: left;
   display: inline-block !important;
@@ -69,21 +70,23 @@ a {
 }
 
 #banner {
-  background-color: #ffca43;
-  margin-top: 12px;
-  margin-bottom: 36px;
-  margin-right: 12px;
-  margin-left: 12px;
+  background: url(../img/tools.png) no-repeat center center;
+  background-size: cover;
+  background-position: right top -320px ; 
+  z-index: -1;
+  /*background-color: #ffca43;*/
+  padding-bottom: 48px;
 }
 
 #banner .content{
   text-transform: uppercase;
+  text-shadow: 1px 1px #000;
   font-family: 'Montserrat', sans-serif;
   font-size: 3em;
     color: white;
     font-weight: 400;
   text-align: center;
-  padding: 1em 0;
+  padding-top: 100px;
 }
 
 #timeRibbon {
@@ -125,6 +128,12 @@ a {
 #links-column a{
   margin-right: 10px;
   margin-bottom: 10px;
+}
+
+.announcements.segment {
+  background: #ffca43 !important;
+  border: none !important;
+  color: white !important;
 }
 
 
