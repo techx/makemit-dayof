@@ -89,6 +89,10 @@ a {
   padding-top: 100px;
 }
 
+#timeRibbon {
+  background-color: #ffca23 !important;
+}
+
 .ui.hack.button {
   box-shadow: none;
   border: 2px solid rgb(35,177,150);
