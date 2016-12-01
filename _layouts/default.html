@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
+    <link rel="icon"
+          type="image/png"
+          href="/assets/img/new_logo_black.png">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <link href="/assets/css/main.css" rel="stylesheet" type="text/css">
+
+    <!-- Include Semantic-UI -->
+    <script src="/assets/js/semantic.min.js"></script>
+    <link href="/assets/css/semantic.min.css" rel="stylesheet" type="text/css">
+
+    <!-- for Facebook -->
+    <meta property="og:title" content="MakeMIT {{ site.year }}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="assets/img/new_logo_black.png"/>
+    <meta property="og:url" content="https://makemit.org"/>
+    <meta property="og:description" content="MakeMIT Day Of Information"/>
+
+    <!-- for Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@makemit">
+    <meta name="twitter:title" content="MakeMIT {{ site.year }}">
+    <meta name="twitter:description" content="Get ready for a makeathon like none other.">
+    <meta name="twitter:image:src" content="assets/img/new_logo_black.png"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="/assets/js/base.js"></script>
+</head>
+
+<body>
+
+<div class="ui page dimmer">
+    <div class="content">
+        <div class="center">
+            <h1></h1>
+            <h2></h2>
+        </div>
+    </div>
+</div>
+
+<div class="nav">
+    <div class="ui secondary pointing menu">
+        <a class="logo montserrat bold item" href="https://makemit.org">
+            <img class="ui image hacksquare" src="/assets/img/new_logo_title_black.png">
+        </a>
+        <a class="item {% if page.url == '/' %} active {% endif %}" href="/">
+            <i class="home icon"></i>
+            Day Of
+        </a>
+        <a class="item {% if page.url == '/schedule/' %} active {% endif %}" href="/schedule/">
+            <i class="calendar icon"></i>
+            Schedule
+        </a>
+        <a class="item {% if page.url == '/resources/' %} active {% endif %}" href="/resources/">
+            <i class="rocket icon"></i>
+            Resources
+        </a>
+        <a class="item {% if page.url == '/hardware/' %} active {% endif %}" href="/hardware/">
+            <i class="rocket icon"></i>
+            Hardware List
+        </a>
+        <a class="item {% if page.url == '/travel/' %} active {% endif %}" href="/travel/">
+            <i class="plane icon"></i>
+            Travel Info
+        </a>
+        <a class="item {% if page.url == '/maps/' %} active {% endif %}" href="/maps/">
+            <i class="map icon"></i>
+            Maps
+        </a>
+    </div>
+</div>
+{{ content }}
+
+</body>
+</html>
