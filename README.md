@@ -1,22 +1,19 @@
-MakeMIT Day Of Page
-===================
+# MakeMIT Day Of Page
 
 This website will provide information to the hackers on the day of the event.
 
----
+## Making Changes
 
-Git Flow
---------
+Pushing changes to this repository will automatically deploy the repository to [dayof-dev.makemit.org](https://dayof-dev.makemit.org) via Travis
 
-For this page we're using a modified git flow, since the `gh-pages` branch represents production.
+To deploy to [dayof.makemit.org](https://dayof.makemit.org), simply create a GitHub release.
 
-Feature branches will come and go from `master`, and for deploys `master` will be merged into `gh-pages`
+## Developing
 
-Testing
--------
+Run `./bin/install`
+Then run either
+- `./bin/serve` (will automatically refresh on each change)
+    - Navigate to [http://localhost:4000](http://localhost:4000)
+- `./bin/build` (will NOT automatically refresh on each change)
 
-1. Run an HTTP Server
-	- Python 2: `cd` into the root directory of the project and run `python -m SimpleHTTPServer`.
-	- Python 3: `cd` into the root directory of the project and run `python3 -m http.server`.
-2. Direct your browser to `http://localhost:8000/` to see the site.
 
