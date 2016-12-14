@@ -1,0 +1,146 @@
+body, input, .ui.input input, button, textarea {
+  font-family: $font-body;
+}
+
+body {
+  background-color: $lightGray !important;
+  margin:0;
+  color: black;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.no-padding {
+  padding: 0;
+  margin: 0;
+}
+
+.montserrat,
+.montserrat.bold {
+  font-family: $font-header;
+}
+
+.montserrat.bold{
+  font-weight: 700;
+}
+
+.lato {
+  font-family: $font-body !important;
+}
+
+.nav {
+  background-color: white;
+  width: 100%;
+}
+
+.main {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.ui.message ul.list li:before {
+  content: "" !important;
+}
+
+.hacksquare {
+  float: left;
+  display: inline-block !important;
+  width: 7em;
+}
+
+.inline {
+  display: inline-block;
+}
+
+#home iframe
+{
+  width: 100% !important;
+  min-height: 800px;
+  height: 100% !important;
+}
+
+#maps img {
+  width: 100%;
+}
+
+#banner {
+  background-size: cover;
+  background: url(../img/tools.png) no-repeat right top -320px;
+  z-index: -1;
+  /*background-color: #ffca43;*/
+  padding-bottom: 48px;
+
+  .content{
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 100px;
+  }
+}
+
+#timeRibbon {
+  background-color: $yellow !important;
+}
+
+.ui.hack.button {
+  box-shadow: none;
+  border: 2px solid $blue;
+  color: $blue;
+  background: none;
+  min-width: 288px;
+  width: 30%;
+}
+
+.ui.hack.button.completed, .ui.hack.button:hover {
+  background: $blue;
+  color: white;
+}
+
+.invisible {
+  display: none;
+}
+
+.width-limiter {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.message-center .ui.message {
+  text-align: center;
+}
+
+#links-column a{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.announcements.segment {
+  background: $yellow !important;
+  border: none !important;
+  color: white !important;
+}
+
+
+@media only screen and (max-width : 480px) {
+
+  #home {
+    padding: 0;
+  }
+
+  .ui.button {
+    min-width: 0 !important;
+    width: 100% !important;
+  }
+  .ui.page.grid {
+    min-width: 300px !important;
+  }
+  #hardware-col-1 {
+    text-align: left !important;
+  }
+}
