@@ -13,7 +13,7 @@ deploy:
     access_key_id: AKIAINILTTJT3LLUL4BQ
     secret_access_key:
       secure: "rrswRtJmyHyIeID+qkTsVeNTARm2qjnKge5ks5jCGEzwXFEoK38pU0CBZG9u43Bk/RTlUnzUR1jHUT+61Kvl6devke+Cqmc32Zw0R9ytMfIssaSjSO9qwNEMJuHLwkX7TEETcmywA5Np+Se7+DRFhOUOdXUx9ChBbocEL8I34bL1cpZzPwRkRsUee7ewARMrAds/Wwd4hIZ0ZRBwf91FWtZPOL3J68BhVq4qgqo2kWTasSpcsqVLGoReGTsRzLfPy6rxMAARckNZzV6AHpfowHjNRMPcuFaNMAkHwpxcHAbq8q4OaRhZddpN10STdbYV/9I6Zakh2klFEI+tfp6Me+9SCCmdWnoa9LGDFM8tEUsSEXHz7rlxRzoz7h/bR84TlmdvxQUzlNJOPhrIzATEqmTOw0EbnVpCCMfWymos02qfzOa5r0U2Z2b39O6XsoHmsVJSMnG+aXVHenbcEIp0WNH7BynalXW5E2tZhgzk1x4Ur6wlnlFGmtwE6MyBFmPrq49rAKHyHDTygyN/Qf9RcwgB52HPYJNuWJxw18JUuE497GlTvTER65FK76Bw8xiMX3kl7Ma50YurdvgD6RQC8ZD6+C023fju1j/36iLhiInKZbdK7X0v7N8JGDKb81gIy122ANEGVF4oX3ndD0RdNzFyRk61w7vnaTf3U5VItcM="
-    bucket: "dayof.makemit.org"
+    bucket: "makemit-dayof"
     skip_cleanup: true
     local_dir: _site
     on:
@@ -23,6 +23,6 @@ deploy:
     access_key_id: AKIAJJTXXVZ4Q5PMHBCQ
     secret_access_key:
       secure: "Z9IaKcPMyRG9A8MrQMXjJOW9KhAmYGyQQRLYEmAz/EdWixVe7irUJndNurM4OH9GWOLA5p6zkdL4nimen9eUfuDe5Bdj9qEqwkZGnu9PSNCg8i0DzwB4b9BDXLAId7XCySc+QdatRx7swIYzpXDRDcunpQpPTySwJFi3nE+Xd9bpQqgOs941KUNzs6OYInHjx135BEVp2hRFssHu76nkrbvO5GfSK2/9bRcGghOLRHNVi3xJKQuOROl86lijOwloq6Tat1S6o+Xd/BM80rZ53IZlPTfiVSKl/QsWFhXkvQrDh6/MRquYTsi0yvtIF0saENV20GbpCi7WiKLah//e3pDv4IUZ3Svbiu292i37zEXdWBrkblA9xbYtyIq0KJ7zuOJSxBTpZrKGuX+U0hCBEVDTnXK3z8qLV6dSJ9/ugTTP8R33DUvAZ9Q4zDujN8/bLiAFlgsFwDkHGVo4fwe5aJWw6zJndqKGRhHWIsU907LerPxld1qQ7SaVB45y1lOcykzT85UypTE8fMlDgY0DzpVFOfv0iMw0iVBneQS/Q/AzuIZXt4zxykKQb90TKktTShASvS2IAuoI8ymiNmhrU6DnE6LYSNYb5O0tX284fQFJoHJJseG6H4Jf4NGS5+6nvvvUaDrcHRwrYcJa/h5Z79yA9LrpeAHbwKopw9NEUUU="
-    bucket: "dayof-dev.makemit.org"
+    bucket: "makemit-dayof-dev"
     local_dir: _site
     skip_cleanup: true
